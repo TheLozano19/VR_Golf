@@ -555,7 +555,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01512f11fe5096443ad972feb69271f6, type: 3}
   m_Name: SpaceWarpFeature Android
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.SpaceWarpFeature
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Application SpaceWarp
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.spacewarp
@@ -1094,7 +1094,9 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.OpenXRSettings
   features:
+  - {fileID: -8411578309529562794}
   - {fileID: -1792532201221227305}
+  - {fileID: 1493246298097118254}
   - {fileID: -8914360733861523618}
   - {fileID: 1421348436658671865}
   - {fileID: -2830150012201396099}
@@ -1117,14 +1119,12 @@ MonoBehaviour:
   - {fileID: -4716098163652825768}
   - {fileID: -6750676281118739834}
   - {fileID: 4948528423171303202}
+  - {fileID: -2030601162467365291}
   - {fileID: -6577970494238793565}
   - {fileID: -55271863871294900}
   - {fileID: -6615176909959505569}
   - {fileID: -8077567347431745812}
   - {fileID: 9164608132580630619}
-  - {fileID: -8411578309529562794}
-  - {fileID: 1493246298097118254}
-  - {fileID: -2030601162467365291}
   customLoaderName: 
   m_renderMode: 1
   m_latencyOptimization: 0
